@@ -1,0 +1,3 @@
+[submodule "themes/diginas"]
+	path = themes/diginas
+	url = https://github.com/themefisher/meghna-hugo.git
