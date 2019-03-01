@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://www.diginas.fr/"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
 title = "Digital innovations As services"
@@ -46,7 +46,7 @@ theme = "diginas"
 [params]
 home= "Home"
 logo = "images/logo.png"
-gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
+#gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
 # Meta data
 description = "Your Digital partner for innovation & transformation"
 author = "Diginas"
