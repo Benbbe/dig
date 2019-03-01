@@ -23,7 +23,7 @@
 - id: comment
   translation: Commentaire
 - id: commentPlaceholder
-  translation: !!!!N'hésitez pas à utiliser Markdown.
+  translation: N'hésitez pas à utiliser Markdown.
 - id: commentNotify
   translation: M'avertir des nouveaux commentaires sur cet article
 - id: addComment
