@@ -1,0 +1,36 @@
+- id: comments
+  translation: Commentaires
+- id: permalinkComment
+  translation: Lien vers ce commentaire
+- id: replyTo
+  translation: Répondre
+- id: replyToThread
+  translation: Répondre
+- id: noComments
+  translation: Soyez le prmier à commenter.
+- id: emailUseGravatarNotifications
+  translation: Votre adresse e-mail est uniquement utilisée pour l’image <a href="https://gravatar.com" target="_blank" rel="noopener">Gravatar</a> i powiadomień o nowych komentarzach.
+- id: emailUseGravatar
+  translation: Votre adresse e-mail est uniquement utilisée pour l’image <a href="https://gravatar.com" target="_blank" rel="noopener">Gravatar</a>.
+- id: tellSomething
+  translation: Dites-nous tout
+- id: thanksForComment
+  translation: Merci
+- id: commentSent
+  translation: Votre commentaire a été envoyé et sera publié après approbation.
+- id: nickname
+  translation: Pseudo
+- id: comment
+  translation: Commentaire
+- id: commentPlaceholder
+  translation: !!!!N'hésitez pas à utiliser Markdown.
+- id: commentNotify
+  translation: M'avertir des nouveaux commentaires sur cet article
+- id: addComment
+  translation: Commenter
+- id: readMore
+  translation: Lire plus
+- id: viewAllPost
+  translation: Voire Tous les Articles
+- id: share
+  translation: Partager
