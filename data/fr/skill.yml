@@ -1,0 +1,26 @@
+enable : true
+heading : Nos
+headingSpan : compétences
+title : Nous sommes spécialisés dans les transformations numériques.
+content : Nous sommes pationnés pour réussir votre transformation digitale!
+image : images/about/company-growth.png
+skillItem :
+  - itemNumber : 01-
+    itemName :  Business Intelligence et Data Plateform
+    itemPercent : 90%
+
+  - itemNumber : 02-
+    itemName :  Infrastucture IT et Cloud
+    itemPercent : 70%
+
+  - itemNumber : 03-
+    itemName :  Application Mobile
+    itemPercent : 80%
+
+  - itemNumber : 04-
+    itemName :  Developpement Web et Application
+    itemPercent : 95%
+
+  - itemNumber : 05-
+    itemName :  Tests et RPA
+    itemPercent : 75%

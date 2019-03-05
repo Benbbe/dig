@@ -1,4 +1,4 @@
-baseURL = "https://www.diginas.fr/"
+yabaseURL = "https://www.diginas.fr/"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
 title = "Digital innovations As services"
@@ -17,14 +17,14 @@ theme = "diginas"
     URL = "services"
     weight = 3
 
-    [[menu.nav]]
+    #[[menu.nav]]
     #name = "Portfolio"
     #URL = "portfolio"
     #weight = 4
 
     #[[menu.nav]]
     #name = "Team"
-    #URL = "our-team"
+    #URL = "our-team"#
     #weight = 5
 
     #[[menu.nav]]

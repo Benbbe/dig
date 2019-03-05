@@ -1,0 +1,127 @@
+baseURL: 'https://www.diginas.fr/'
+languageCode: en-us
+DefaultContentLanguage: en
+title: Digital innovations As services
+theme: diginas
+languages:
+  en:
+    languageName: English
+    weight: 1
+    contentDir: content/en
+  fr:
+    languageName: Français
+    weight: 2
+    contentDir: content/fr
+    menu:
+      nav:
+        - name: Qui Sommes-nous
+          URL: fr/about
+          weight: 2
+        - name: Nos Services
+          URL: fr/services
+          weight: 3
+        - name: Nos Compétences
+          URL: fr/skills
+          weight: 5
+        - name: Blog
+          URL: fr/blog
+          weight: 7
+        - name: Contact
+          URL: fr/contact-us
+          weight: 8
+    params:
+      home: Accueil
+
+  es:
+    languageName: Spanish
+    contentDir: content/es
+    weight: 3
+    menu:
+      nav:
+        - name: sobre nosotros
+          URL: es/about
+          weight: 2
+        - name: Nuestros servicios
+          URL: es/services
+          weight: 3
+        - name: habilidades
+          URL: es/skills
+          weight: 5
+        - name: Blog
+          URL: es/blog
+          weight: 7
+        - name: Contacto
+          URL: es/contact-us
+          weight: 8
+    params:
+      home: inicio
+
+menu:
+  nav:
+    - name: About Us
+      URL: about
+      weight: 2
+    - name: Services
+      URL: services
+      weight: 3
+    - name: Skills
+      URL: skills
+      weight: 5
+    - name: Blog
+      URL: blog
+      weight: 7
+    - name: Contact
+      URL: contact-us
+      weight: 8
+params:
+  home: Home
+  logo: images/logo.png
+  description: Your Digital partner for innovation & transformation
+  author: Diginas
+  googleAnalitycsID: Your ID
+  custom_css:
+    - css/custom.css
+  banner:
+    enable: true
+    bgImage: images/slider/hero-area.jpg
+    icon: tf-ion-play
+    heading: Experience the new reality
+    content: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, excepturi.
+      At recusandae sit perferendis autem,iste tempora nostrum numquam sapiente!
+    btn: true
+    btnText: Explore Us
+    btnURL: '#services'
+  cta:
+    enable: true
+    title: Great Design & Incredible Features
+    content: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur
+      odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi
+      nostrum.
+    btnURL: '#'
+    btnText: Start a project with us
+  counter:
+    enable: true
+    bgImage: images/backgrounds/bg-1.jpg
+    counterItem:
+      - title: Happy Clients
+        icon: tf-ion-android-happy
+        count: '320'
+      - title: Projects completed
+        icon: tf-ion-archive
+        count: '565'
+      - title: Positive feedback
+        icon: tf-ion-thumbsup
+        count: '95'
+      - title: Cups of Coffee
+        icon: tf-ion-coffee
+        count: '2500'
+  footer:
+    copyright: Diginas
+    copyrightURL: 'http://www.diginas.fr'
+    socialIcon:
+      - icon: tf-ion-social-twitter
+        url: '#'
+      - icon: tf-ion-social-linkedin
+        url: '#'

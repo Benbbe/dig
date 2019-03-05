@@ -1,6 +1,6 @@
 enable : true
-heading : About
-headingSpan : Us
+heading : Qui
+headingSpan : Sommes-Nous
 
 aboutItem :
 - icon : tf-tools

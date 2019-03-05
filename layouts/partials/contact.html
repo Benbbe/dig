@@ -1,12 +1,13 @@
 {{ if .Site.Data.contact.enable }}
 {{"<!-- Start Contact Us -->" | safeHTML}}
+{{ $data := index .Site.Data .Site.Language.Lang }}
 <section id="contact-us" class="contact-us section-bg">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 {{"<!-- section title -->" | safeHTML}}
                 <div class="title text-center wow fadeIn" data-wow-duration="500ms">
-                    <h2>{{ with .Site.Data.contact.heading }} {{ . }} {{ end }} <span class="color">{{ with .Site.Data.contact.headingSpan }} {{ . }} {{ end }}</span></h2>
+                    <h2>{{  with $data.contact.headingSpan }} {{ . }} {{ end }} <span class="color">{{ with $data.contact.headingSpan }} {{ . }} {{ end }}</span></h2>
                     <div class="border-meghna"></div>
                 </div>
             </div>
@@ -14,8 +15,8 @@
 
             {{"<!-- Contact Details -->" | safeHTML}}
             <div class="contact-info col-lg-6 wow fadeInUp" data-wow-duration="500ms">
-                {{ with .Site.Data.contact.title }}<h3>{{ . }}</h3> {{ end }}
-                {{ with .Site.Data.contact.content }} <p> {{ . }} </p> {{ end }}
+                {{ with $data.contact.title }}<h3>{{ . }}</h3> {{ end }}
+                {{ with $data.contact.content }} <p> {{ . }} </p> {{ end }}
                 <div class="contact-details">
                     {{ range .Site.Data.contact.contactDetails }}
                     <div class="con-info clearfix">
@@ -33,27 +34,27 @@
                     <input name="e-mail" type="text" id="e-mail" autocomplete="off">
 
                     <div class="form-group">
-                        <input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
+                        <input type="text" placeholder="{{ i18n "mailSenderName" }}" class="form-control" name="name" id="name">
                     </div>
 
                     <div class="form-group">
-                        <input type="email" placeholder="Your Email" class="form-control" name="email" id="email">
+                        <input type="email" placeholder="{{ i18n "mailSenderAddress" }}" class="form-control" name="email" id="email">
                     </div>
 
                     <div class="form-group">
-                        <input type="text" placeholder="Subject" class="form-control" name="subject" id="subject">
+                        <input type="text" placeholder="{{ i18n "mailSubject" }}" class="form-control" name="subject" id="subject">
                     </div>
 
                     <div class="form-group">
-                        <textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>
+                        <textarea rows="6" placeholder="{{ i18n "mailBody" }}" class="form-control" name="message" id="message"></textarea>
                     </div>
 
                     <div id="mail-success" class="success">
-                        Thank you. The Mailman is on His Way :)
+                        {{i18n "mailsentOK"}}
                     </div>
 
                     <div id="mail-fail" class="error">
-                        Sorry, don't know what happened. Try later :(
+                        {{i18n "mailsentKO"}}
                     </div>
 
                     <div id="cf-submit">

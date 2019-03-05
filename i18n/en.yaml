@@ -34,3 +34,11 @@
   translation: View All Post
 - id: share
   translation: Share
+- id: mailSenderName
+  translation: Your name
+- id: mailSubject
+  translation: Subjet
+- id: mailSenderAddress
+  translation: Your email
+- id: mailBody
+  translation: Message

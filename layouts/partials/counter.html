@@ -1,5 +1,6 @@
 {{ if .Site.Params.counter.enable }}
 {{"<!-- Start Counter Section -->" | safeHTML}}
+{{ $data := index .Site.Data .Site.Language.Lang }}
 <section id="counter" class="parallax-section bg-1 section overly" style='background-image: url("{{ .Site.Params.counter.bgImage | absURL }}")'>
     <div class="container">
         <div class="row">

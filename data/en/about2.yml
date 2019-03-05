@@ -1,11 +1,10 @@
-enable : true
 image : images/about/about-business-man.jpg
 title : Nous sommes votre partenaire pour la digitalisation et l'innovation.
 description : Nos équipes vous accompagnent dans réalisition de la refonte de votre système d'information ou la mise en place d'une nouvelle application métier, DIGINAS vous propose un accompagnement tout au long de la vie du projet.
 #description2 : Nos consultants organisent et animent les ateliers de conception applicative réunissant vos utilisateurs référents. Ils proposent des scénarios alternatifs, illustrés par des storyboards, conseillent et s'assurent de vous guider vers la solution la plus ajustée à vos processus métier.
 aboutItem :
   - icon : tf-circle-compass
-    title : UX based developme9nt
+    title : UX based development
     content : Placer vos utilisateurs au centre de la conception pour produire rapidement et efficacement des services applicatifs à forte valeur ajoutée.
 
   - icon : tf-hotairballoon
