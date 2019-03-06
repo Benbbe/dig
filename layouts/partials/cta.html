@@ -1,5 +1,6 @@
 {{ if .Site.Params.cta.enable}}
 {{"<!-- Start Call To Action -->" | safeHTML}}
+{{ $data := index .Site.Data .Site.Language.Lang }}
 <section class="call-to-action section-sm bg-1 overly" style='background-image: url("{{ .Site.Params.counter.bgImage | absURL }}")'>
     <div class="container">
         <div class="row">

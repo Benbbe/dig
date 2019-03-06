@@ -1,0 +1,17 @@
+{{"<!-- Fixed Navigation -->" | safeHTML}}
+{{ $data := index .Site.Data .Site.Language.Lang }}
+<lang id="languages_" class="navbar navbar-expand-lg navigation sticky-top">
+        <div class="container">
+          <div style="position: absolute; top: 100; right: 10px; width: 100px; text-align:right;">
+          {{ $lang := .Site.Language.Lang}}
+            {{ range .Site.Languages }}
+              {{ if eq $lang . }} <p>{{ .languageName }}</p>
+              {{ else }}
+                <a class="nav-link" data-scroll href="{{ . | absURL }}">{{ . }}</a>
+              {{end}}
+            {{end}}
+          </div>
+        </div>
+
+</lang>
+{{"<!-- End Fixed Navigation -->" | safeHTML}}

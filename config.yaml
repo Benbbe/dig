@@ -15,23 +15,44 @@ languages:
     menu:
       nav:
         - name: Qui Sommes-nous
-          URL: fr/about
+          URL: about
           weight: 2
         - name: Nos Services
-          URL: fr/services
+          URL: services
           weight: 3
         - name: Nos Compétences
-          URL: fr/skills
+          URL: team-skills
           weight: 5
+        - name: Join us
+          URL: join
+          weight: 6
         - name: Blog
-          URL: fr/blog
+          URL: blog
           weight: 7
         - name: Contact
-          URL: fr/contact-us
+          URL: contact-us
           weight: 8
     params:
+#Home
       home: Accueil
-
+#Banner
+      banner:
+        enable: true
+        bgImage: images/slider/hero-area.jpg
+        icon: tf-ion-play
+        heading: Digital Innovations As Services
+        content: >-
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, excepturi.
+          At recusandae sit perferendis autem,iste tempora nostrum numquam sapiente!
+        btnText: Exploranos
+        btnURL: '#services'
+      cta:
+        title: Un design exceptionnel et des fonctionnalités incroyables
+        content: >-
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur
+          odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi
+          nostrum.
+        btnText: Commencer un projet avec nous
   es:
     languageName: Spanish
     contentDir: content/es
@@ -39,23 +60,41 @@ languages:
     menu:
       nav:
         - name: sobre nosotros
-          URL: es/about
+          URL: about
           weight: 2
         - name: Nuestros servicios
-          URL: es/services
+          URL: services
           weight: 3
         - name: habilidades
-          URL: es/skills
+          URL: team-skills
           weight: 5
+        - name: Join us
+          URL: join
+          weight: 6
         - name: Blog
-          URL: es/blog
+          URL: blog
           weight: 7
         - name: Contacto
-          URL: es/contact-us
+          URL: contact-us
           weight: 8
     params:
       home: inicio
-
+      banner:
+        enable: true
+        bgImage: images/slider/hero-area.jpg
+        icon: tf-ion-play
+        heading: Digital Innovations As Services
+        content: >-
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, excepturi.
+          At recusandae sit perferendis autem,iste tempora nostrum numquam sapiente!
+        btnText: Exploranos
+      cta:
+        title: Gran diseño y características increíbles
+        content: >-
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur
+          odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi
+          nostrum.
+        btnText: Comienza un proyecto con nosotros.
 menu:
   nav:
     - name: About Us
@@ -65,8 +104,11 @@ menu:
       URL: services
       weight: 3
     - name: Skills
-      URL: skills
+      URL: team-skills
       weight: 5
+    - name: Join us
+      URL: join
+      weight: 6
     - name: Blog
       URL: blog
       weight: 7
@@ -85,7 +127,7 @@ params:
     enable: true
     bgImage: images/slider/hero-area.jpg
     icon: tf-ion-play
-    heading: Experience the new reality
+    heading: Digital Innovations As Services
     content: >-
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, excepturi.
       At recusandae sit perferendis autem,iste tempora nostrum numquam sapiente!
@@ -102,7 +144,7 @@ params:
     btnURL: '#'
     btnText: Start a project with us
   counter:
-    enable: true
+    enable: false
     bgImage: images/backgrounds/bg-1.jpg
     counterItem:
       - title: Happy Clients
