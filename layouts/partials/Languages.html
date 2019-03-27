@@ -1,8 +1,8 @@
 {{"<!-- Fixed Navigation -->" | safeHTML}}
 {{ $data := index .Site.Data .Site.Language.Lang }}
-<lang id="languages_" class="navbar navbar-expand-lg navigation sticky-top">
+<lang id="languages_" class="sticky-top">
         <div class="container">
-          <div style="position: absolute; top: 100; right: 10px; width: 100px; text-align:right;">
+          <div style="position: absolute; top: 100; right: 10px; width: 100px; text-align:right;cursor:pointer">
           {{ $lang := .Site.Language.Lang}}
             {{ range .Site.Languages }}
               {{ if eq $lang . }} <p>{{ .languageName }}</p>

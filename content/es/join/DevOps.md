@@ -1,8 +1,8 @@
 ---
-title: "Are You Doing the Right Way"
+title: "DevOps"
 date: 2019-09-12T14:51:12+06:00
 author: Saad
-image: images/blog/blog-post-3.jpg
+image: images/join/join-job-1.jpg
 description : "This is meta description"
 ---
 
